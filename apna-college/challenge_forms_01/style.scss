@@ -1,0 +1,79 @@
+/// importing necessary fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+#form_activity {
+  width                 : 45em;
+  padding               : 5em;
+  box-shadow            : 6px 6px black;
+  outline               : solid;
+  outline-color         : black;
+  margin-left           : auto;
+  margin-right          : auto;
+  margin-top            : 3em;
+  font-family           : 'Poppins', monospace;
+  overflow              : hidden;
+}
+
+.title {
+  font-weight           : 600;
+  text-align            : center;
+  font-size             : larger;
+}
+
+.input_box {
+  text-decoration       : none;
+  width                 : 100%;
+  outline               : solid;
+  outline-width         : 0.3px;
+  outline-color         : black;
+  padding               : 1em;
+  margin-top            : 1em;
+  margin-bottom         : 1em;
+  margin-left           : auto;
+  margin-right          : auto;
+  transition            : 0.2s ease-in-out;
+  font-family           : 'Poppins', monospace;
+  overflow              : hidden;
+}
+
+.button {
+  padding                 : 1em;
+  text-align              : center;
+  width                   : 30%;
+  margin-right            : 2em;
+  margin-top              : 2em;
+  align-items             : center;
+  display                 : inline-block;
+  overflow                : hidden;
+  outline                 : auto;
+  outline-color           : black;
+  outline-width           : 3px;
+  border-radius           : 0%;
+  font-family             : 'Poppins', monospace;
+  transition              : 0.2s ease-in-out;
+}
+
+.button:hover {
+  box-shadow              : 4px 4px black;
+}
+
+.bg-teal {
+  background-color        : teal;
+}
+
+.bg-purple {
+  background-color        : purple;
+  color                   : white;
+}
+
+.desc_text {
+  font-size               : small;
+  font-weight             : 300;
+  text-align              : center;
+  margin-left             : auto;
+  margin-right            : auto;
+}
+
+.input_text_area {
+  overflow                : hidden;
+}

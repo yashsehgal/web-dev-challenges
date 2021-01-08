@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uttar for Challenge 01 - Apna College Web Dev</title>
+  <!--
+    linking css modules here
+    CSS Code is written using SCSS preprocessor which is compiled to vanilla CSS code.
+  -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--
+    form_activity will store the entire form activity. It acts like a root container
+  -->
+  <div id="form_activity">
+    <form action="" method="get">
+
+      <!--title text-->
+      <p class="title">Create an account beautiful</p>
+
+      <!--input event to get email address-->
+      <label for="email">Email Address</label>
+      <input type="text" name="email" id="email_address" class="input_box" required>
+
+      <!--input event to get user description-->
+      <label for="description">Description (Try to be brief)</label>
+      <textarea name="description" class="input_box input_text_area"></textarea>
+
+      <!--input event to get phone number-->
+      <label for="phone">Phone Number</label>
+      <input type="tel" name="phone" id="phone_number" class="input_box" required>
+
+      <!--input event to get date of birth-->
+      <label for="dob">Date of Birth</label>
+      <input type="date" name="dob" id="date_of_birth" class="input_box" required>
+
+      <!--input event to create a password-->
+      <label for="password">Create Password</label>
+      <input type="password" name="password" id="create_password" class="input_box" required>
+
+      <!--input event to confirm password-->
+      <label for="password">Confirm Password</label>
+      <input type="password" name="password" id="confirm_password" class="input_box" required>
+
+      <!--input for accepting terms and conditions-->
+      <input type="checkbox" name="policy" id="accepting_policy" class="input_checkbox" required>
+      <label for="policy" class="desc_text">Accepting all policies, Terms and Conditions</label>
+
+      <br />
+      <!--using basic buttons using anchor tag links-->
+      <!--button to sign up with all the details entered-->
+      <input type="submit" value="Create an account" class="button bg-purple">
+      <!--button to reset sign up form details-->
+      <input type="button" value="Login Instead" class="button bg-teal">
+
+    </form>
+  </div>
+</body>
+</html>
